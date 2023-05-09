@@ -1,12 +1,12 @@
 package org.lessons.java;
 
-public class Cuffie extends Prodotto{
+public class Cuffia extends Prodotto{
 
 	String colore;
 	String wirelessONo;
 	
 	
-	public Cuffie(int codice, String nome, String marca, float prezzo, int iva, String colore, String wireString) {
+	public Cuffia(int codice, String nome, String marca, float prezzo, int iva, String colore, String wireString) {
 		super(codice, nome, marca, prezzo, iva);
 		
 		

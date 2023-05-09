@@ -1,12 +1,12 @@
 package org.lessons.java;
 
-public class Televisori extends Prodotto{
+public class Televisore extends Prodotto{
 
 	int dimensioni;
 	boolean smart;
 	
 	
-	public Televisori(int codice, String nome, String marca, float prezzo, int iva, int dimensioni, boolean smart) {
+	public Televisore(int codice, String nome, String marca, float prezzo, int iva, int dimensioni, boolean smart) {
 		super(codice, nome, marca, prezzo, iva);
 		
 		

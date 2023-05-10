@@ -27,9 +27,9 @@ public class Catalogo {
 			if(userInput == 0) {
 				
 				System.out.println("inserisci il nome del prodotto");
-				String userNome = sc.nextLine();
+				String userNome = sc.next();
 				System.out.println("inserisci la marca");
-				String userMarca = sc.nextLine();
+				String userMarca = sc.next();
 				System.out.println("inserisci il prezzo");
 				float userPrezzo = sc.nextFloat();
 				System.out.println("inserisci la memoria");
@@ -43,9 +43,9 @@ public class Catalogo {
 			}else if (userInput == 1) {
 				
 				System.out.println("inserisci il nome del prodotto");
-				String userNome = sc.nextLine();
+				String userNome = sc.next();
 				System.out.println("inserisci la marca");
-				String userMarca = sc.nextLine();
+				String userMarca = sc.next();
 				System.out.println("inserisci il prezzo");
 				int userPrezzo = sc.nextInt();
 				System.out.println("inserisci le dimensioni");
@@ -72,15 +72,15 @@ public class Catalogo {
 			}else if (userInput == 2) {
 				
 				System.out.println("inserisci il nome del prodotto");
-				String userNome = sc.nextLine();
+				String userNome = sc.next();
 				System.out.println("inserisci la marca");
-				String userMarca = sc.nextLine();
+				String userMarca = sc.next();
 				System.out.println("inserisci il prezzo");
 				int userPrezzo = sc.nextInt();
 				System.out.println("inserisci il colore");
-				String userColore = sc.nextLine();
+				String userColore = sc.next();
 				System.out.println("inserisci se cablate o wirless");
-				String userWirless = sc.nextLine();
+				String userWirless = sc.next();
 				
 				
 				catalogo[contatore] = new Cuffia(codice,userNome,userMarca,userPrezzo,22,userColore,userWirless);
